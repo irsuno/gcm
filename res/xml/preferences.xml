@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="prefKey" >
+
+    <PreferenceCategory android:title="Settings" >
+        <com.h6ah4i.android.compat.preference.MultiSelectListPreferenceCompat
+            android:defaultValue="@array/empty_array"
+            android:dialogTitle="Categories to select"
+            android:key="cat"
+            android:summary="Select categories to filter notifcations."
+            android:title="Categories" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="App" >
+        <PreferenceScreen
+            android:summary="Uses some open source lib"
+            android:title="Credits" >
+            <Preference
+                android:key="credit"
+                android:summary="By Haruki Hasegawa"
+                android:title="MultipleListPreference" >
+            </Preference>
+        </PreferenceScreen>
+
+        <Preference
+            android:key="about"
+            android:summary="powered by iCanStudioZ.com"
+            android:title="About us" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

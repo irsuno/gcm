@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Push Notification</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+<!--     put your admob advertising unit ID	: Leave it blank if don't want to use admob	 -->
+	<string name="ad_unit_id">ca-app-pub-9937376956444860/8941146536</string>
+	
+	
+	<string-array name="empty_array"/>
+	
+	
+<!-- 	Use categories -->
+	
+	<string name="use_cat">true</string>
+	
+</resources>
